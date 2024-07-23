@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains a CI/CD pipeline tool build using bash, Python and cron tabs. The tool automates the delployment of the sample one page website to a server running on AWS using Nginx. The pipeline checks for any new commits in the GitHub repository, clones the lastest code and deplyos it to the server.
+This repository contains a automation build using bash,AWS EC2-Linux, Nginx and cron tabs. The tool automates the delployment of the sample one page website to a server running on AWS using Nginx. The pipeline checks for any new commits in the GitHub repository, clones the lastest code and deplyos it to the server.
 
 ## Features
 
@@ -18,7 +18,6 @@ This repository contains a CI/CD pipeline tool build using bash, Python and cron
 
 Before we begins, ensure we have met the following requirements:
 - You have an [AWS] (https://www.aws.amazon.com/) or Linux machine.
-- You have installed [Git](https://www.github.org/).
 - You have installed [Python 3](https://www.python.org/).
 - You have installed [Nginx] (https://nginx.com/).
 - You have a GitHub personal access tocken with repo premissions.
