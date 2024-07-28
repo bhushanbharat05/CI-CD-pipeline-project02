@@ -1,4 +1,4 @@
-# CI/CD Pipeline Project
+# Automation Project
 
 ## Introduction
 
